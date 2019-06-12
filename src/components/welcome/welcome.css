@@ -1,0 +1,40 @@
+.welcome{
+    position: static;
+    top: 0px; 
+    background :#00e676;
+    /*font-family: 'Pacifico', cursive;*/
+    font-size: 20px;
+    width: 100%;
+    height: 470px;
+    color:black
+}
+
+.brand{ 
+    font-size:100px; 
+    font-family: 'Exo 2', sans-serif;   
+      margin-left: 34%;
+    padding-top:120px;
+}
+
+.tagline{
+    margin-left: 40%;
+}
+
+.element{
+    width: 100%;
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color: #b9f6ca;
+}
+
+.img{
+    position: absolute;
+    top:180px;
+    left:170px;
+    background-image:url('https://www.stayforyou.com/wp-content/uploads/2017/09/Service-Apartment-Logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+

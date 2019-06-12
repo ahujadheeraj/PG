@@ -30,9 +30,9 @@ const PgList = (props) => {
             if(filteredPgs.length===0){
                 return(
                     <div className = "container">
-                        <strong>No Filtered Result.
-                            <p>Try Changing Filter.</p>
-                        </strong>
+                        <br/>
+                        
+                        <br/>
                         {farr && farr.map(pg=>{
                             return(<PgSummary key = {pg.id} pg = {pg} />)
                             
