@@ -9,6 +9,7 @@ class NewPg extends Component{
         Owner:'',
         contact:'',
         Type:'',
+        Details:'',
         Rent:''
     }
 
@@ -58,6 +59,11 @@ class NewPg extends Component{
                     <div className = "input-field">
                         <input type = "text" id = "Rent" onChange = {this.handleChange} />
                         <label htmlFor = "Rent">Rent</label>
+                    </div>
+
+                    <div className = "input-field">
+                        <input type = "text" id = "Details" onChange = {this.handleChange} />
+                        <label htmlFor = "Details">Details</label>
                     </div>
 
 

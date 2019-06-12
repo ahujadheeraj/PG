@@ -13,17 +13,11 @@ function App() {
     <BrowserRouter>
       <div className="App">
       <Navbar />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       
       <Switch>
-        <Route exact path = '/' component = {Dashboard} />
+        <Route exact path = '/' component = {FilterPg} />
         <Route exact path = '/pg/:id' component = {PgDetails} />
         <Route path = '/new' component = {NewPg} />
-        <Route path = '/filter' component = {FilterPg} />
-
 
       </Switch>
       </div>

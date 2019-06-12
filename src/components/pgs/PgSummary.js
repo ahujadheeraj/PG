@@ -5,17 +5,17 @@ const PgSummary = ({pg}) => {
     
     return(
         <div >
-          <div className = "col s12 m6 l3">
-            <div class="card">
+          <div className = "col s12 m10 l9">
+            <div className="card">
                 
-                <div class="card-content">
+                <div className="card-content">
                     <p><b>{pg.PgName}</b></p>
                     
                     <p>{pg.PgLocation}</p>
                     <p>{pg.Type}</p>
 
                 </div>
-                <div class="card-action">
+                <div className="card-action">
                     <Link to = {'/pg/'+pg.id}>View Details</Link>
 
                 </div>  
